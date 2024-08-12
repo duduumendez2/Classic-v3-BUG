@@ -254,7 +254,7 @@ const zets = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ?
  message:{"orderMessage":{"orderId":"174238614569438",
  "thumbnail":kosongjpg, //image 0kb
  "itemCount":999999999,
- "status":"INQUIRY","surface":"CATALOG","message":`⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺`,
+ "status":"INQUIRY","surface":"CATALOG","message":`⫹⸙⧉★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⧉⸙⫺`,
  "token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA==" }},
  contextInfo: {"mentionedJid":m.sender.split, "forwardingScore":999,"isForwarded":true}}
  
@@ -301,8 +301,8 @@ return zetsubo.sendMessage(from, { text: teks, contextInfo:{"externalAdReply": {
 
 const zetsreply = async (teks) => {
 	    zetsubo.sendMessage(from, { text:teks, contextInfo: {externalAdReply : {
-        title : `⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺`,
-        body : `⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉`,
+        title : `⫹⸙★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⧉⸙⫺`,
+        body : `⧉★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙]彡★⧉`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
         mediaUrl: `https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg`,
@@ -312,8 +312,8 @@ const zetsreply = async (teks) => {
 
 const virgamreply = async (teks) => {
 	    zetsubo.sendMessage(bnnd, { text:teks, contextInfo: {externalAdReply : {
-        title : `⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺`,
-        body : `⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉⸙⫺`,
+        title : `⫹★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⫺`,
+        body : `★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙]彡★`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
         mediaUrl: `https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
@@ -323,8 +323,8 @@ const virgamreply = async (teks) => {
 
 const genreply = async (teks) => {
 	    zetsubo.sendMessage(from, { text:teks, contextInfo: {externalAdReply : {
-        title : `⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺`,
-        body : `⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉`,
+        title : `★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★`,
+        body : `★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙]彡★`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
         mediaUrl: `https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
@@ -404,9 +404,9 @@ reply(`${err}`)
 async function loading () {
 var hawemod = [
 
-` ★彡 𝘾𝙇𝘼𝙎𝙎𝙄𝘾 𝙑3 彡★ `
+` ★彡 ★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★ 彡★ `
 ]
-let { key } = await zetsubo.sendMessage(from, {text: '@⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺.....'})//Pengalih isu
+let { key } = await zetsubo.sendMessage(from, {text: '@⫹★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⫺.....'})//Pengalih isu
 
 for (let i = 0; i < hawemod.length; i++) {
 /*await delay(10)*/
@@ -959,7 +959,7 @@ break
 		
 //=================================================//
 case 'onekill': {
-if (!isCreator) return reply("Only Classic-v3-BUG owner can use this command")
+if (!isCreator) return reply("Only ★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★ owner can use this command")
 if (!args[0]) return reply(`Use like .${command} 254392784527`)
 let tgt = args[0]
 let qt = tgt.replace(/[^0-9]/g, "")
@@ -1002,10 +1002,10 @@ break
 case 'menu': case 'help': {
 let messg = `
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-    \`𝘾𝙇𝘼𝙎𝙎𝙄𝘾-𝙑3 𝘽𝙐𝙂\`
+    \`★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-   ✰ 𝐒𝐜 𝐏𝐮𝐛𝐥𝐢𝐜 ❴ 𝐵𝑌 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 ❵
-   ✰ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+   ✰ 𝐒𝐜 𝐏𝐮𝐛𝐥𝐢𝐜 ❴ 𝐵𝑌 ★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙]彡★ ❵
+   ✰ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: 𝕶𝖎𝖓𝖌 MENDEZ
    ✰ 𝐔𝐬𝐞𝐫 : @${m.sender.split('@')[0]}
  
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -1059,7 +1059,7 @@ break
 //=================================================//
 case 'bugmenu': {
 	
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = ` *★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★* 
                             
   
   🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
@@ -1084,12 +1084,12 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfom:{externalAdReply:{
-  title: 'ᚙᚘ ⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3 ⧉⸙⫺   - 𝐊ᚗ𝐈𝐍ᚗ𝐆 ᚘᚙ',
-  body: 'ᚙᚘ ⫹⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉⸙⫺᚜𝐌𝐈𝐒𝐒𝐈𝐎𝐍᚛ ᚘᚙ', 
+  title: 'ᚙᚘ ⫹★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⫺   - 𝐊ᚗ𝐈𝐍ᚗ𝐆 ᚘᚙ',
+  body: 'ᚙᚘ ⫹⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⸙⧉⸙⫺᚜𝐌𝐈𝐒𝐒𝐈𝐎𝐍᚛ ᚘᚙ', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/4fe600774059b6c7cf8b4.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1097,7 +1097,7 @@ zetsubo.sendMessage(from, hiks, {quoted: zets })}
 break
 case 'pushmenu': {
 
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = ` *★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★* 
    🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
     🗿 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
 ┏━━━━━━━━━━━━━━━━━━━
@@ -1111,12 +1111,12 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺',
-  body: '⫹⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉⫺ᚖ𝑴𝒊𝑺𝑺𝒊𝒐𝑵ᚘᚙ', 
+  title: '⫹★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⫺',
+  body: '⫹⧉⸙★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⸙⧉⫺ᚖ𝑴𝒊𝑺𝑺𝒊𝒐𝑵ᚘᚙ', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/4fe600774059b6c7cf8b4.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1125,7 +1125,7 @@ break
 //=================================================//
 case 'groupmenu': {
 
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = ` *★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★* 
 🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
 🗿 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
  
@@ -1162,12 +1162,12 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '𒑰⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺⿻',
-  body: '༐༑⿻⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉⿻༔༐༑', 
+  title: '𒑰⫹★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⫺⿻',
+  body: '༐༑⿻⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⸙⧉⿻༔༐༑', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/4fe600774059b6c7cf8b4.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1176,7 +1176,7 @@ break
 //=================================================//
 case 'downloadmenu': {
 
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = ` *★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★* 
     🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
     🗿 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
 
@@ -1200,12 +1200,12 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '𒑰⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺',
+  title: '𒑰⫹★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⫺',
   body: '༐༑⿻⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉⿻༔༐༑', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/4fe600774059b6c7cf8b4.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1214,7 +1214,7 @@ break
 //=================================================//
 case 'randommenu': {
 
-                            ewe = `*𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = `*★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★* 
   🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
   🗿 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
 
@@ -1262,12 +1262,12 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '𒑰᚜ 𝐇𝐚𝐢𝐥 𝐭𝐨 𝐊𝐢𝐧𝐠 𝐒𝐚𝐦 ᚛⿻',
-  body: '༐༑⿻⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺༔༐༑', 
+  title: '𒑰᚜ 𝐇𝐚𝐢𝐥 𝐭𝐨 𝐊𝐢𝐧𝐠 MENDEZ ᚛⿻',
+  body: '༐༑⿻⫹⸙⧉★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★⧉⸙⫺༔༐༑', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/4fe600774059b6c7cf8b4.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1808,7 +1808,7 @@ text: `𝑯𝒆𝒍𝒍𝒐 ${pushname}
  ⦁ 𝐓𝐡𝐚𝐧𝐤𝐬 𝐭𝐨 ${pushname} 
  ➢ 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐁𝐨𝐭 
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-© 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐕3 𝐁𝐎𝐓
+© ★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★
 `,
 mentions:[sender],
 contextInfo:{
@@ -1816,7 +1816,7 @@ mentionedJid:[sender],
 "externalAdReply": {
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
-"title": `© 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐕3 𝐁𝐎𝐓`, 
+"title": `© ★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★`, 
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": rimuwu,
@@ -2216,9 +2216,9 @@ for (let i = 0; i < 10; i++) {
 }];
 
 let listMessage = {
-    text: `💣𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 💀`,
+    text: `💣𝕶𝖎𝖓𝖌 𝖒endez 💀`,
     footer: `🍻°⃟૰𝐤𝐢𝐥𝐥𝐞𝐫 -!ˢᵃᵐˢ🍺ꢵ`,
-    buttonText: `Classic - V3`,
+    buttonText: `Duduu mendez - V3`,
     sections
 };
 
@@ -2427,7 +2427,7 @@ await inireact()
 if (!isCreator) return reply('*Only Premium Members Are Allowed To Use This Command*')
 if (!m.isGroup) return
 await inireact()
-let teks = `══᪣⧠ *࿉ 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐕-3࿉* ⧠᪣══
+let teks = `══᪣⧠ *࿉ ★彡[𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 V3]彡★ ⧠᪣══
  ➲ *REPORT : ${q ? q : '𝐓𝐀𝐆𝐆𝐄𝐃'}*\n\n`
 for (let mem of participants) {
 teks += `🩸 @${mem.id.split('@')[0]}\n`
@@ -2578,7 +2578,7 @@ mediaType: 1,
 mediaUrl: `${global.url}`
 }
 },
-text: '📡𝗬𝗼𝘂 𝗖𝗮𝗻 𝗖𝗼𝗽𝘆 𝗕𝘂𝘁 𝗬𝗼𝘂 𝗖𝗮𝗻𝘁 𝗯𝗲 𝗠𝗲 🙃 𝗖𝗮𝗹𝗹 𝗠𝗲 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 🩸'
+text: '📡𝗬𝗼𝘂 𝗖𝗮𝗻 𝗖𝗼𝗽𝘆 𝗕𝘂𝘁 𝗬𝗼𝘂 𝗖𝗮𝗻𝘁 𝗯𝗲 𝗠𝗲 🙃 𝗖𝗮𝗹𝗹 𝗠𝗲 𝕶𝖎𝖓𝖌 𝐃𝐔𝐃𝐔𝐔_𝐌𝐄𝐍𝐃𝐄𝐙 🩸'
 }, {
 quoted: m
 })
@@ -3350,7 +3350,7 @@ case 'sc': case 'script': case 'repo':
 await inireact()
 
  zetsubo.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/b103691007c8ce5ee8a94.jpg` }, caption: 
-`╭╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╮\n\n ➨ 𝑯𝒊 *${pushname}* \n\n ➨ 𝑰 𝒂𝒎 𝑪𝑳𝑨𝑺𝑺𝑰𝑪_𝑨𝑰 𝑩𝑶𝑻 ☣.\n\n ➨ 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑮𝒆𝒕 𝑴𝒚 𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆 𝑽𝒊𝒂.\n\n ➨ 𝑻𝒉𝒆 𝑳𝒊𝒏𝒌 𝑩𝒆𝒍𝒐𝒘 ⇣⇣.\n\n ➨𝑭𝒐𝒓𝒌 𝑨𝒏𝒅 𝑮𝒊𝒗𝒆 𝑨 𝑺𝒕𝒂𝒓 ➻ ❴ https://github.com/Samue-l1/Classic-v3-BUG ❵\n\n ➨ 𝑹𝒆𝒎𝒆𝒎𝒃𝒆𝒓 𝒕𝒐 𝒕𝒂𝒌𝒆 𝒂 𝒍𝒐𝒐𝒌 𝒐𝒏 𝒓𝒆𝒂𝒅𝒎𝒆 𝒃𝒆𝒇𝒐𝒓𝒆 𝒅𝒆𝒑𝒍𝒐𝒚𝒎𝒆𝒏𝒕.\n\n ➨ 𝑴𝒂𝒅𝒆 𝑩𝒚 ➻ 𝐊𝐈𝐍𝐆 𝐒𝐀𝐌 ✇\n\n╰╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╯⸼` });
+`╭╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╮\n\n ➨ 𝑯𝒊 *${pushname}* \n\n ➨ 𝑰 𝒂𝒎 MENDEZ_𝑨𝑰 𝑩𝑶𝑻 ☣.\n\n ➨ 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑮𝒆𝒕 𝑴𝒚 𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆 𝑽𝒊𝒂.\n\n ➨ 𝑻𝒉𝒆 𝑳𝒊𝒏𝒌 𝑩𝒆𝒍𝒐𝒘 ⇣⇣.\n\n ➨𝑭𝒐𝒓𝒌 𝑨𝒏𝒅 𝑮𝒊𝒗𝒆 𝑨 𝑺𝒕𝒂𝒓 ➻ ❴ https://github.com/Samue-l1/Classic-v3-BUG ❵\n\n ➨ 𝑹𝒆𝒎𝒆𝒎𝒃𝒆𝒓 𝒕𝒐 𝒕𝒂𝒌𝒆 𝒂 𝒍𝒐𝒐𝒌 𝒐𝒏 𝒓𝒆𝒂𝒅𝒎𝒆 𝒃𝒆𝒇𝒐𝒓𝒆 𝒅𝒆𝒑𝒍𝒐𝒚𝒎𝒆𝒏𝒕.\n\n ➨ 𝑴𝒂𝒅𝒆 𝑩𝒚 ➻ 𝐊𝐈𝐍𝐆 𝐒𝐀𝐌 ✇\n\n╰╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╯⸼` });
 
    break;
 //=================================================
@@ -3381,9 +3381,9 @@ case 'broadcast':
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: '𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓𝐄𝐃 𝐁𝐘 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐁𝐎𝐓',
+                                title: '𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓𝐄𝐃 𝐁𝐘 *DUDUU_MENDEZ* 𝐁𝐎𝐓',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/d2a1d3bbfabf34fabe666.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/4fe600774059b6c7cf8b4.jpg',
                                 sourceUrl: 'https://chat.whatsapp.com/ETsxysQPYXxG1P8JQ1RQHV',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -3410,9 +3410,9 @@ const audiovn = "./Classic.mp3";
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "𝐇𝐢 𝐇𝐮𝐦𝐚𝐧,𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐁𝐨𝐭 𝐈𝐬 𝐀𝐥𝐢𝐯𝐞 𝐚𝐧𝐝 𝐊𝐢𝐜𝐤𝐢𝐧𝐠",
+          title: "𝐇𝐢 𝐇𝐮𝐦𝐚𝐧,𝐂𝐥𝐚𝐬𝐬𝐢𝐜 MENDEZ 𝐁𝐨𝐭 𝐈𝐬 𝐀𝐥𝐢𝐯𝐞 𝐚𝐧𝐝 𝐊𝐢𝐜𝐤𝐢𝐧𝐠",
           body: "https://chat.whatsapp.com/ETsxysQPYXxG1P8JQ1RQHV",
-          thumbnailUrl: "https://telegra.ph/file/f6d66a60454e31e0a2c0d.jpg",
+          thumbnailUrl: "https://telegra.ph/file/4fe600774059b6c7cf8b4.jpg",
           sourceUrl: "https://chat.whatsapp.com/ETsxysQPYXxG1P8JQ1RQHV",
           mediaType: 1,
           renderLargerThumbnail: true
@@ -4697,7 +4697,7 @@ case 'play':
                         document: fs.readFileSync(`./${randomName}`),
                         mimetype: "audio/mpeg",
                         fileName: titleYt + ".mp3",
-			caption: "💢 𝐂𝐋𝐀𝐒𝐒𝐈𝐂_𝐁𝐎𝐓 𝐁𝐘 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 🩸 ",    
+			caption: "💢 MENDEZ BOT 𝐁𝐘 𝖒ENDEZ 🩸 ",    
                     }, {
                         quoted: m 
                     }
